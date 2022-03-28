@@ -1,0 +1,148 @@
+/*FONTES*/
+@font-face {
+    font-family: vogue;
+    src: url(fonts/Vogue.ttf);
+}
+@font-face {
+    font-family: minuscula;
+    src: url(fonts/Fresh\ Lychee.ttf);
+}
+@font-face {
+    font-family: simples;
+    src: url(fonts/TypoSlab\ Irregular\ Demo.otf);
+}
+@font-face {
+    font-family: minimalista;
+    src: url(fonts/Louis\ George\ Cafe.ttf);
+}
+@font-face {
+    font-family: maquina;
+    src: url(fonts/JMH\ Typewriter.ttf);
+}
+
+body {
+    margin: 0px;
+    background: #b7b3af;
+}
+
+/*PADRÃO*/
+.logo {
+    width: 100%;
+    height: 180px;
+}
+
+.menu ul li {
+    background-color: #877972;
+    color: white;
+    margin-left: -40px;
+    width: 28%;
+    /*width: 371px;*/
+    display: inline-block;
+    text-align: center;
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: aa;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.menu ul li:hover {
+    background-color: #61544e;
+    text-decoration: underline;
+}
+
+/*CORPO DO SITE*/
+.quad {
+    background-color: #cccacab4;
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.quad img {
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 5%;
+}
+
+.icone {
+    float: right;
+    padding-top: 120px;
+    padding-right: 16%;
+}
+
+.textos {
+    font-family: minimalista;
+    text-align: center;
+    font-size: 22px;
+    margin-top: -20px;
+}
+
+.citacoes {
+    font-family: minuscula;
+    color: #61544e;
+    text-align: center;
+    font-size: 22px;
+}
+
+.topico a {
+    color: #ffffff;
+    font-family: maquina;
+    text-decoration: none;
+}
+
+.obs {
+    font-size: 14px;
+    color: #4e4642;
+    padding-left: 22px;
+}
+
+.titulos {
+    font-family: maquina;
+    text-align: center;
+    font-size: 30px;
+}
+
+.textos a {
+    color: #606060;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+/*PRODUTOS*/
+
+
+/*MATERIAIS*/
+.separacao {
+    background-color: #877972;
+    width: 40%;
+    display: inline-block;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+p  {
+    text-align: left;
+}
+
+.topico {
+    font-family: simples;
+    font-size: 20px;
+    text-align: left;
+}

@@ -1,0 +1,39 @@
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px;
+    border: 2px solid #61544e;
+    background-color: #b7b3af;
+    border-radius: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+}
+
+input, textarea {
+   
+    font: 1em sans-serif;
+
+
+    width: 500px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+    border: 1px solid #999;
+    background-color: #dad5d0;
+}
+
+.button {
+    
+}
+button {
+    margin-left: 38%;
+    background-color: #afaeae;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0,.4);
+    width: 100px;
+    height: 40px;
+}
